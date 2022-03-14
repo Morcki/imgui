@@ -1,10 +1,12 @@
 ## OSX artifacts
 .DS_Store
-
+bin/
+bin-int/
 ## Dear ImGui artifacts
 imgui.ini
 
 ## General build artifacts
+*.vcxproj
 *.o
 *.obj
 *.exe
