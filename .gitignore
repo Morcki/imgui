@@ -1,5 +1,8 @@
 ## OSX artifacts
 .DS_Store
+bin/
+bin-int/
+*.vcxproj
 
 ## Dear ImGui artifacts
 imgui.ini
@@ -12,6 +15,7 @@ examples/build/*
 examples/*/Debug/*
 examples/*/Release/*
 examples/*/x64/*
+examples/*/*.vcxproj
 
 ## Visual Studio artifacts
 .vs
@@ -51,3 +55,5 @@ examples/example_glut_opengl2/example_glut_opengl2
 examples/example_null/example_null
 examples/example_sdl_opengl2/example_sdl_opengl2
 examples/example_sdl_opengl3/example_sdl_opengl3
+
+
